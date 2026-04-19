@@ -1,0 +1,36 @@
+* {
+  font-family: "JetBrainsMono NF", "JetBrains Mono", "Noto Sans Mono", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+window#waybar {
+  background: #2a2927;
+  color: #2a2927;
+  border-top: 3px solid #daad9a;
+  border-bottom: 3px solid #daad9a;
+  border-right: 3px solid #daad9a;
+  border-left: 3px solid #daad9a;
+}
+
+#custom-launcher, #workspaces, #clock, #pulseaudio, #network, #cpu, #memory, #disk, #battery, #tray, #custom-power {
+  padding: 0 10px;
+  margin: 6px 6px;
+  border-radius: 6px;
+  background: rgba(40, 40, 50, 0.9);
+}
+
+#workspaces button { color: #cdd6f4; }
+#workspaces button.active { background: #89b4fa; color: #1e1e2e; }
+
+#clock { background: #a6e3a1; color: #1e1e2e; font-weight: bold; }
+
+#pulseaudio { background: #f9e2af; color: #1e1e2e; }
+#network { background: #cba6f7; color: #1e1e2e; }
+#cpu { background: #f38ba8; color: #1e1e2e; }
+#memory { background: #fab387; color: #1e1e2e; }
+#disk { background: #94e2d5; color: #1e1e2e; }
+#battery { background: #89b4fa; color: #1e1e2e; }
+#custom-power { background: #f38ba8; color: #1e1e2e; }
+
+#tray { padding: 0 6px; }
