@@ -4,14 +4,20 @@
   "height": 40,
   "spacing": 4,
 
-  "modules-left": ["custom/launcher"],
+  "modules-left": ["custom/launcher", "custom/browser"],
   "modules-center": ["clock"],
   "modules-right": ["pulseaudio", "network", "cpu", "memory", "disk", "battery", "tray", "custom/power"],
 
   "custom/launcher": {
-    "format": "󰀻",
-    "tooltip": false,
-    "on-click": "cosmic-launcher"
+    "format": "",
+    "tooltip": "Applications",
+    "on-click": "cosmic-app-library"
+  },
+
+  "custom/browser": {
+    "format": "",
+    "tooltip": "Firefox",
+    "on-click": "firefox"
   },
 
   "clock": {

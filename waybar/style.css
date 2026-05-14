@@ -20,10 +20,11 @@ window#waybar {
   background: rgba(40, 40, 50, 0.9);
 }
 
+/* Colorful accents per module */
 #workspaces button { color: #cdd6f4; }
 #workspaces button.active { background: #89b4fa; color: #1e1e2e; }
 
-#clock { background: #a6e3a1; color: #1e1e2e; font-weight: bold; }
+#clock { background: #a6e3a1; color: #1e1e2e; font-weight: bold; } 
 
 #pulseaudio { background: #f9e2af; color: #1e1e2e; }
 #network { background: #cba6f7; color: #1e1e2e; }
@@ -32,5 +33,22 @@ window#waybar {
 #disk { background: #94e2d5; color: #1e1e2e; }
 #battery { background: #89b4fa; color: #1e1e2e; }
 #custom-power { background: #f38ba8; color: #1e1e2e; }
+
+#custom-launcher {
+  background: #cba6f7;     /* purple/pink */
+  color: #1e1e2e;
+  padding: 2px 9px;
+  margin: 6px 6px;
+  border-radius: 6px;
+}
+
+#custom-browser {
+  background: #74c7ec;
+  color: #1e1e2e;
+  padding: 1px 7px;     /* very compact */
+  margin: 6px 3px;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
 #tray { padding: 0 6px; }
